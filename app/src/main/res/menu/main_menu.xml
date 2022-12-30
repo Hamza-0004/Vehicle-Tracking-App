@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/ic_dashboard"
+            android:icon="@drawable/dashboard_icon"
+            android:title="Dashboard"
+            android:iconTint="@color/white"/>
+
+        <item android:id="@+id/allVehicles"
+            android:icon="@drawable/ic_list"
+            android:title="Drivers Details"
+            android:iconTint="@color/white"/>
+
+        <item android:id="@+id/aboutUsdetails"
+            android:title="About Us"
+            android:icon="@drawable/about_icon"
+            android:iconTint="@color/white"/>
+
+        <item android:id="@+id/iclogout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout"
+            android:iconTint="@color/white"/>
+
+    </group>
+</menu>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    tools:context=".EveningShiftDetails">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/es_pd_TB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="Point Details"
+        app:titleTextColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/es_card_1_point_det"
+        android:layout_width="350dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/es_pd_TB">
+
+        <TextView
+            android:id="@+id/es_point_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Point-Q"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/es_point_for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="(Boys)"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/es_driver_img"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/profileic"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/es_driverTitle"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="102dp"
+            android:fontFamily="@font/baloo"
+            android:text="Driver : "
+            android:textSize="26dp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/es_driver_name"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="102dp"
+            android:text="Ali Hyder"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_driver_contact_title"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/baloo"
+            android:text="Contact : "
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_driver_contact"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="135dp"
+            android:text="03012345678"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+
+        <TextView
+            android:id="@+id/es_c1_routeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="170dp"
+            android:text="---Route &amp; Time---"
+            android:fontFamily="@font/baloo"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/es_c1_from_title"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="217dp"
+            android:fontFamily="@font/baloo"
+            android:text="From : "
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c1_from_route"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="217dp"
+            android:text="Rohri"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c1_to_title"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="245dp"
+            android:fontFamily="@font/baloo"
+            android:text="To : "
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c1_to_reach"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="245dp"
+            android:text="Sukkur IBA"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c1_time_title"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="275dp"
+            android:fontFamily="@font/baloo"
+            android:text="Time : "
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c1_time_start"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="275dp"
+            android:text="01:05 PM"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_2_point_det"
+        android:layout_width="350dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/es_card_1_point_det">
+
+        <TextView
+            android:id="@+id/es_c2_point_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Point-J"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/es_c2_point_for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="(Girls)"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/es_c2_driver_img"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/profileic"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/es_c2_driverTitle"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="102dp"
+            android:fontFamily="@font/baloo"
+            android:text="Driver : "
+            android:textSize="26dp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/es_c2_driver_name"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="102dp"
+            android:text="Gull Sher"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c2_driver_contact_title"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/baloo"
+            android:text="Contact : "
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c2_driver_contact"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="135dp"
+            android:text="03012345678"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+
+        <TextView
+            android:id="@+id/es_c2_routeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="170dp"
+            android:text="---Route &amp; Time---"
+            android:fontFamily="@font/baloo"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/es_c2_from_title"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="217dp"
+            android:fontFamily="@font/baloo"
+            android:text="From : "
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c2_from_route"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="217dp"
+            android:text="Rohri"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c2_to_title"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="245dp"
+            android:fontFamily="@font/baloo"
+            android:text="To : "
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c2_loc_reach"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="245dp"
+            android:text="Sukkur IBA"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c2_time_title"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="275dp"
+            android:fontFamily="@font/baloo"
+            android:text="Time : "
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/es_c2_time_start"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="275dp"
+            android:text="01:05 PM"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

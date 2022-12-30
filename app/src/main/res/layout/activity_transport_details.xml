@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransportDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TD_CL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/td_TB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/ic_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="Transport Details"
+            app:titleTextColor="@color/white"
+            tools:ignore="MissingConstraints"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/admin_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/td_TB">
+
+            <ImageView
+                android:id="@+id/admin_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/admin_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin*"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/admin_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transport Officer"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/admin_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abdul Hafeez Tunio"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/admin_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hafeez.tunio@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/admin_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/assistant_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/admin_card">
+
+            <ImageView
+                android:id="@+id/assistant_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/assistant_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assistant To"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/assistant_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transport Officer"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/assistant_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abid Ali Channa"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/assistant_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abidali.channa@iba-suk.edu.pk"
+                android:textSize="22dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/assistant_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/coodinator_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/assistant_card">
+
+            <ImageView
+                android:id="@+id/coodinator_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/coodinator_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coodinator"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/coodinator_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver (POINT-P)"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/coodinator_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abdul Hameed"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/coodinator_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdulhameed@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/coodinator_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dirver1_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coodinator_card">
+
+            <ImageView
+                android:id="@+id/dirver1_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/dirver1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver1_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jinsar"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver1_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point-A"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver1_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jinsar@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver1_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dirver2_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dirver1_card">
+
+            <ImageView
+                android:id="@+id/dirver2_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/dirver2_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver2_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ali Bux Mastoi"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver2_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point-M"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver2_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alibux.mastoi@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver2_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dirver3_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dirver2_card">
+
+            <ImageView
+                android:id="@+id/dirver3_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/dirver3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver3_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ali Haider"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver3_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point-Q"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver3_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alihaider@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver3_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dirver4_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dirver3_card">
+
+            <ImageView
+                android:id="@+id/dirver4_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/dirver4_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver4_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moula Bux"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver4_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point-D"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver4_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="moula.bux@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver4_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dirver5_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dirver4_card">
+
+            <ImageView
+                android:id="@+id/dirver5_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/dirver5_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver5_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kareem"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver5_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point-H"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver5_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kareem.bux@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver5_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dirver6_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dirver5_card">
+
+            <ImageView
+                android:id="@+id/dirver6_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/dirver6_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver6_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayaz"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver6_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point-O"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver6_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ayaz@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver6_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dirver7_card"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dirver6_card">
+
+            <ImageView
+                android:id="@+id/dirver7_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profileic"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/dirver7_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver7_Occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sohail"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver7_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point-G"
+                android:fontFamily="@font/baloo"
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver7_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sohail@iba-suk.edu.pk"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dirver7_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03012345678"
+                android:textSize="24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_ic"
+                android:layout_marginTop="162dp"
+                android:layout_marginLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_dashboard.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_dept_evening_track.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_dept_morning_track.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_drop_time_shift1.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_evening_shift.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_evening_shift_details.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_login.xml" value="0.10869565217391304" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_main.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_map.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_morning_details.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_morning_shift.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_point_schedule.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/activity_track_vehicle.xml" value="0.1716485507246377" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/layout/list_item.xml" value="0.10869565217391304" />
+        <entry key="..\:/Faizan/Latest/OLD/VehicleTrackingApp/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Study Stuff/FYP/Android/VehicleTrackingApp/app/src/main/res/layout/activity_point_schedule.xml" value="0.33" />
+        <entry key="..\:/Study Stuff/FYP/Android/VehicleTrackingApp/app/src/main/res/layout/activity_track_vehicle.xml" value="0.1" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable-anydpi/button_bg.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/about_icon.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/button_bg.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/dashboard_icon.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/edit_text_bg.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/ic_about.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/ic_back.xml" value="0.122" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/ic_batch.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/ic_list.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/ic_phone.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/ic_time.xml" value="0.1225" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/input_design.xml" value="0.1215" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/layout2_corners.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/layout_corner.xml" value="0.2" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/logout_icon.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/phone_ic.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/drawable/rounded_corner_searchview.xml" value="0.1195" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/font/font.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_about_us.xml" value="0.25" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_dept_evening_track.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_dept_morning_track.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_drop_time_shift1.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_evening_shift.xml" value="0.25" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_evening_shift_details.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_login.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_morning_details.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_morning_shift.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_point_schedule.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_track_vehicle.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/activity_transport_details.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/custom_layout_with_cardview.xml" value="0.12807377049180327" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/header.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/layout_corners.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/layout/list_item.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/MeMoN/AndroidStudioProjects/VehicleTrackingApp/app/src/main/res/menu/main_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DropTimeShift1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mConsLO"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/track_TB_Ev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/ic_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="Drop Time"
+            app:titleTextColor="@color/white"
+            tools:ignore="MissingConstraints"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card1"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/track_TB_Ev">
+
+            <TextView
+                android:id="@+id/tEvlocation1"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Rohri                                      Point-A"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 01:50 PM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card2"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card1">
+
+            <TextView
+                android:id="@+id/tEvlocation2"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Old Sukkur                            Point-B"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 01:50 PM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card3"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card2">
+
+            <TextView
+                android:id="@+id/tEvlocation3"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Qasim Park                           Point-C"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 01:50 PM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card4"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card3">
+
+            <TextView
+                android:id="@+id/tEvlocation4"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Hira                                      `  Point-D"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 01:50 PM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card5"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card4">
+
+            <TextView
+                android:id="@+id/tEvlocation5"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Hostel                                     Point-G"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 01:45 PM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card6"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card5">
+
+            <TextView
+                android:id="@+id/tEvlocation6"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Queens Road (Girls)           Point-F"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:10 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card7"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card6">
+
+            <TextView
+                android:id="@+id/tEvlocation7"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Bandar Road (Boys)           Point-E"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:10 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card8"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card7">
+
+            <TextView
+                android:id="@+id/tEvlocation8"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Bandar Road (Girls)            Point-F"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:10 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card9"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card8">
+
+            <TextView
+                android:id="@+id/tEvlocation9"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Military Road (Boys)          Point-H"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:15 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card10"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card9">
+
+            <TextView
+                android:id="@+id/tEvlocation10"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Military Road (Girls)           Point-I"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:15 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card11"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card10">
+
+            <TextView
+                android:id="@+id/tEvlocation11"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Military Road (Girls)           Point-I"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:20 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card12"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card11">
+
+            <TextView
+                android:id="@+id/tEvlocation12"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Military Road (Girls)           Point-I"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:25 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card13"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card12">
+
+            <TextView
+                android:id="@+id/tEvlocation13"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Military Road (Girls)           Point-I"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:25 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card14"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card13">
+
+            <TextView
+                android:id="@+id/tEvlocation14"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Military Road (Girls)           Point-I"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:30 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tEvening_card15"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tEvening_card14">
+
+            <TextView
+                android:id="@+id/tEvlocation15"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Military Road (Girls)           Point-I"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tEvlocationTime15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 08:30 AM"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
